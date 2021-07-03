@@ -36,7 +36,7 @@ ScrapeResult res = await mailScraper.Scrape("wikipedia.org");
 Why can we just download a web page content as a string and look with regular expressions for what we want to find?
 
 The main reason for this is that browser emulators make web pages behave differently,
-for example, load content that will not be triggered with just WebClient or HttpClient request, and this content can have important content.
+for example, load content that will not be triggered with just `WebClient` or `HttpClient` request, and this content can have important content.
 
 There is also some advantage for using browser emulator.
 It can make things a lot easier, they are programmable like a real browser action and can help us find elements we need a lot easier and with better performance,
