@@ -27,8 +27,8 @@ There are few ways that you can start with :
 for example :
 
 ```csharp
-_mailScraper = new EmailScraper();
-ScrapeResult res = await _mailScraper.Scrape("wikipedia.org");
+IScraper mailScraper = new EmailScraper();
+ScrapeResult res = await mailScraper.Scrape("wikipedia.org");
 ```
 
 ## Why we need Selenium or any other browser emulator?
