@@ -6,7 +6,7 @@ Web scraper for email addresses, based on [Selenium Web Driver](https://www.sele
 
 With this scraper, you can scrape email addresses inside websites,
 based on references inside the URL that contain common words like **Contact**, **About**, **Privacy** and so.
-You can call Scrape(string URL) a few URLs on the same Scraper and they will be scraped parallelly.
+You can call `Scrape(string URL)` a few URLs on the same Scraper and they will be scraped parallelly.
 
 This can be useful for finding contact addresses for some domains that interest you.
 
